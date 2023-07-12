@@ -1,0 +1,799 @@
+body{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.nav{
+  z-index: 9;
+   padding:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0px 65px 2px rgba(0,0,0,.2);
+}
+.nav_top{
+    top: 0;
+    right:0;
+    left: 0;
+}
+.logo img{
+    padding:10px;
+}
+.logo{
+    float: left;
+    width: 70%;
+}
+
+.nav_side{
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items:center;
+    align-content: center;
+    text-align: center;
+    width: 30%;
+}
+.nav_side a{
+    margin-right:20px;
+    font-weight: bold;
+    font-family: cosmic, sans-serif;
+}
+.nav_side a:hover{
+    color: orange;
+    transition: 0.5s;
+}
+
+.amain{
+   
+    background-image: url("background3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+.amain .main_content{
+    padding-top: 9%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+}
+.amain .main_content h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+.amain .main_content .main_text{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.amain .btn{
+margin-left: 45%;
+    width: 95px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+}
+.amain .btn a{
+    text-decoration: none;
+    color: white;
+    border: 3px inset black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+.amain .btn a:hover{
+    border: none;
+    border-left: 5px inset cyan;
+    border-radius: 10px;
+    width: 95px;
+    background-color: black;
+    transition: 0.5s;
+}
+.product h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.product .item_container{
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+    .product .item_container .item{
+        width: 25%;
+        margin: 20px;
+        height: auto;
+    }
+    .product .item_container .item .item_img{
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+
+    }
+    .product .item_container .item .item_content .but{
+        width: 70px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .product .item_container .item .item_content .but a{
+        border: 3px solid black;
+        border-radius: 10px;
+        background-color: blueviolet;
+        width: 70px;
+        text-decoration: none;
+
+        color: white;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .product .item_container .item .item_content .but a:hover{
+        background-color: black;
+        border: none;
+        border-left: 3px solid cyan;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+    .product .item_container .item .item_content p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .product .item_container .item .item_content h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .highlights .point_container{
+        display: flex;
+        text-align: center;
+    }
+    .highlights h1{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .highlights .point_container .points{
+        width: 60%;
+    }
+    .highlights .point_container .points li{
+        list-style: none;
+        border-left: 2px solid orange;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        box-shadow: 0px 2px 65px 0px rgba(0,0,0,.2);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+    }
+    .highlights .point_container .key_img{
+        width: 100%;
+        float: right;
+    }
+    footer{
+        width: 100%;
+        background-color:darkgray;
+    }
+    footer .links{
+        text-align: center;
+    }
+    footer .links a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        margin-left: 10px;
+    }
+    footer .links a:hover{
+        color: aqua;
+    }
+    footer .help{
+        text-align: center;
+    }
+    footer .help a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        margin-left: 10px;
+    }
+    footer .help a:hover{
+        color: aqua;
+    }
+    footer .documents{
+        text-align: center;
+    }
+    footer .documents a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        margin-left: 10px;
+    }
+    footer .documents a:hover{
+        color: aqua;
+    }
+    footer .social{
+        text-align: center;
+    }
+    footer .social a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: large;
+    }
+    footer .social a:hover{
+        color: aqua;
+    }
+    footer .contact{
+        text-align: center;
+    }
+    footer .contact a{
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        margin-left: 10px;
+        font-size: large;
+    }
+    footer .contact a:hover{
+        color: aqua;
+    }
+    footer p{
+        color: white;
+    }
+    .about_us{
+        background-image: url("background2.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about_us .content{
+        padding-top: 15%;
+    }
+    .about_us h1{
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    }
+    .about_us p{
+        text-align: center;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+    .mission{
+        display: flex;
+        background-color: white;
+    }
+    .mission .miss_content{
+        width: 60%;
+        margin-right: 40%;
+        border-radius: 10px;
+    }
+    .mission .miss_content h1{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .mission .miss_content p{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .contact_container h1{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .contact_container .gmap{
+        border: 5px solid orange;
+    }
+    .contact_container .contact_content p{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        padding: 30px;
+    }
+    .form h1{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;   
+    }
+    .form form{
+        text-align: center;
+        padding: 30px;
+    }
+    .form form input{
+        width: 30%;
+        margin: 5px;
+        height: 20px;
+    }
+    .form form textarea{
+        width: 30%;
+        margin: 5px;
+    }
+    .form form button{
+        width: 30%;
+        margin: 5px;
+        height: 30px;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+    }
+    .form form button:hover{
+        border: none;
+        border-left: 3px solid cyan;
+        background-color: black;
+    }
+    .signup{
+        background-image: url("background.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 10px;
+        margin-bottom: 10px;        
+    }
+    .signup .form1{
+        padding-top: 5%;
+    }
+    .signup .form1 h1{
+        color: white;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;   
+    }
+    .signup .form1 form{
+        text-align: center;
+        padding: 30px;
+    }
+    .signup .form1 form input{
+        width: 30%;
+        margin: 5px;
+        height: 20px;
+    }
+    .signup .form1 form button{
+        width: 30%;
+        margin: 5px;
+        height: 30px;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+    }
+    .signup .form1 form button:hover{
+        border: none;
+        border-left: 3px solid cyan;
+        background-color: black;
+    }
+    .login{
+        background-image: url("background4.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 10px;
+        margin-bottom: 10px;        
+    }
+    .login .form1{
+        padding-top: 5%;
+    }
+    .login .form1 h1{
+        color: white;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;   
+    }
+    .login .form1 form{
+        text-align: center;
+        padding: 30px;
+    }
+    .login .form1 form input{
+        width: 30%;
+        margin: 5px;
+        height: 20px;
+    }
+    .login .form1 form button{
+        width: 30%;
+        margin: 5px;
+        height: 30px;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+    }
+    .login .form1 form button:hover{
+        border: none;
+        border-left: 3px solid cyan;
+        background-color: black;
+    }
+    .Product_Des .container{
+        margin-right: 10px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .Product_Des .container h1{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center; 
+    }
+    .Product_Des .container{
+        display: flex;
+    }
+    .Product_Des .container .carousel-inner{
+        width: 400px;
+    }
+    .Product_Des .container .item{
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+    .Product_Des .container .details{
+        text-align: center;
+    }
+    .Product_Des .container .details p{
+        margin-left: 20%;
+        width: 60%;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .Product_Des .container .details h3{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;         
+    }
+    .Product_Des .container button{
+        width: 30%;
+        margin: 5px;
+        height: 30px;
+        background-color: purple;
+        color: white;
+        border-radius: 5px;
+    }
+    .Product_Des .container button:hover{
+        border: none;
+        border-left: 3px solid cyan;
+        background-color: black;   
+    }
+    .Product_Des .about{
+        margin: 50px;
+        text-align: center;
+    }
+    .Product_Des .about h1{
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    .Product_Des .about p{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+    }
+    .Product_Des .author h1{
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .Product_Des .author p{
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+    }
+    .reviews h1{
+        text-align: center;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .reviews .text h6{
+        text-align: left;
+        font-weight: bolder;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .Product_Des .reviews{
+        width: 100%;
+        height: 70vh;
+    }
+    .Product_Des .reviews iframe{
+        width: 100%;
+        height:50vh;
+    }
+.reviews .text p{
+    font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: left;
+}
+ .reviews .image{
+    width: 50px;
+}
+.reviews .image img{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.Product_Des .write{
+    background-image: url("back2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.Product_Des .write{
+    padding-top: 5%;   
+}
+.Product_Des .write h1{
+    color: white;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+}
+.Product_Des .write form{
+    text-align: center;
+    padding: 30px;
+}
+.Product_Des .write form input{
+    width: 30%;
+    margin: 5px;
+    height: 20px;
+}
+.Product_Des .write form button{
+    width: 30%;
+    margin: 5px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.Product_Des .write form button:hover{
+    border: none;
+    border-left: 3px solid cyan;
+    background-color: black;
+}
+.Product_Des .write form textarea{
+    width: 30%;
+    margin: 5px;
+}
+.details h1{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+}
+.details form{
+    text-align: center;
+    padding: 30px;
+}
+.details form label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+}
+.details form input{
+    width: 30%;
+    margin: 5px;
+    height: 20px;   
+}
+.details form textarea{
+    width: 30%;
+    margin: 5px;
+}
+.bill h1{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+}
+.bill table{
+    width: 700px;
+    margin-left: 25% ;
+}
+.bill table tr th{
+    margin-right: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.bill table tr td{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.butt button{
+    width: 30%;
+    margin: 5px;
+    height: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.butt{
+    text-align: center;
+}
+.butt button:hover{
+    border: none;
+    border-left: 3px solid cyan;
+    background-color: black;
+}
+@media screen and (max-width: 414px) {
+    .nav{
+        margin-bottom: 10px;
+        display: block;
+    }
+    .nav .logo img{
+        width: 100%;
+    }
+    .nav .nav_side{
+        float: left;
+        display: flex;
+        width: 70%;
+    }
+    .amain {
+        height: 100vh;
+    }
+    .product .item_container{
+        display: block;
+    }
+    .product .item_container .item{
+        width: 100%;
+    }
+    .highlights .point_container{
+        height: 900px;
+    }
+    .about_us .content{
+        height: 2vh;
+        margin-top: 300px;
+    }
+    .mission {
+        display: block;
+    }
+    .mission .miss_content p{
+        margin-right: 15%;
+        width: 350px;
+    }
+    .mission .miss_img img{
+        margin-right: 60%;
+        width: 150px;
+        }
+        .contact_container{
+            margin-top: 20px;
+        }
+        .signup{
+            margin-top: 90%;
+        }
+        .signup form input{
+            width: 400px;
+            height: auto;
+        }
+        .login{
+            height: 50vh;
+            margin-top: 90%;
+        }
+        .login form1{
+            margin-top: 10%;
+        }
+        footer{
+            height: 700px;
+        }
+        .Product_Des .container{
+            display: block;
+        }
+        .Product_Des .container .details p{
+            width: 200px;
+        }
+        .bill table{
+            width: 200px;
+        }
+        .form {
+
+            padding-top: 10px;
+        }
+}
+@media (min-width: 376px) and (max-width: 540px) {
+    .nav{
+        margin-bottom: 10px;
+        display: block;
+    }
+    .nav .logo img{
+        width: 100%;
+    }
+    .nav .nav_side{
+        float: left;
+        display: flex;
+        width: 70%;
+    }
+    .amain {
+        height: 100vh;
+    }
+    .product .item_container{
+        display: block;
+    }
+    .product .item_container .item{
+        width: 100%;
+    }
+    .highlights .point_container{
+        height: 900px;
+    }
+    .about_us .content{
+        height: 2vh;
+        margin-top: 350px;
+    }
+    .mission {
+        display: block;
+    }
+    .mission .miss_content p{
+        margin-right: 15%;
+        width: 350px;
+    }
+    .mission .miss_img img{
+        margin-right: 60%;
+        width: 150px;
+        }
+        .contact_container{
+            margin-top: 90%;
+        }
+        .signup{
+            margin-top: 90%;
+        }
+        .signup form input{
+            width: 400px;
+            height: auto;
+        }
+        .login{
+            height: 50vh;
+            margin-top: 90%;
+        }
+        .login form1{
+            margin-top: 10%;
+        }
+        footer{
+            height: 700px;
+        }
+        .Product_Des .container{
+            display: block;
+        }
+        .Product_Des .container .details p{
+            width: 200px;
+        }
+        .bill table{
+            width: 200px;
+        }
+        .form {
+
+            padding-top: 10px;
+        }
+}
+@media (min-width: 541px) and (max-width: 1024px) {
+    .nav .logo{
+        width: 30%;
+    }
+    .nav .nav_side{
+        display: flex;
+        width: 70%;
+        margin-left: 40%;
+    }
+    .login{
+        height: 50vh;
+    }
+    .signup{
+        height: 50%;
+    }
+    .product .item_container{
+        display: block;
+        width: 500px;
+    }
+.product .item_container .item{
+    width: 750px;
+}
+    .product .item_container .item .item_content p{
+        width: 750;
+
+    }
+}
+    
